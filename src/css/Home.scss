@@ -1,0 +1,66 @@
+// ::-webkit-scrollbar{
+    // ::-webkit-scrollbar-thumb{
+        // background-color: black;
+    // }
+// }
+body{
+    overflow: hidden;
+}
+.home-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+    // background-color: red;
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        // background-color: blue;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .orderbook-container {
+        // background-color: green;
+        height: 100%;
+        width: 100%;
+    }
+
+    .buysell-container {
+        background-color: yellow;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .home-root {
+        display: flex;
+        flex-direction: row;
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            // background-color: blue;
+            width: 60%;
+        }
+
+        .orderbook-container {
+            // background-color: green;
+            height: 100%;
+            width: 20%;
+        }
+
+        .buysell-container {
+            background-color: #252731;
+            height: 100%;
+            width: 20%;
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+.orders-root{
+    background-color: #1f2128;
+    height: 50%;
+    border: 1px solid #33353b;
+    padding: 10px 0px;
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: #50515d;
+        padding: 5px 0px;
+        // height: 50%;
+        .menu-item-active{
+            background-color: #191b20 !important;
+            color: #6c5dd3;
+        }
+        .menu-item {
+            padding: 10px 20px;
+            border-radius: 2em;
+            font-weight: 600;
+            background-color: #21232a;
+        }}
+        .table{
+
+            overflow-y: auto;
+            height: 100%;
+            .table-row{
+                padding: 10px 20px;
+                color:white;
+                font-weight: 400;
+                display: flex;
+                border: 1px solid #33353b;
+
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            .sell{
+                color: #a4564d;
+                font-weight: 600;
+            }
+            .cancel{
+                color:#ff5353;
+                font-weight: 600;
+            }
+        }
+}

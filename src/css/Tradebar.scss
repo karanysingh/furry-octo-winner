@@ -1,0 +1,149 @@
+.tradebar-root{
+    margin: 4px 20px;
+    .investment-container{
+        background-color: #191b20;
+        border-radius: 15px;
+        margin: 20px 0px;
+        padding: 10px 10px;
+        // margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .first{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .second{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            >:nth-child(2){
+                text-align: right;
+            }
+        }
+        .element{
+            width: 50%;
+            padding: 10px 10px;
+            h1{
+                color: #7e7f8f;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 2px 0px;
+            }
+            h3{
+                color: #49ae5f;
+                font-size: 16px;
+                font-weight: 600;
+                margin: 2px 0px;
+            }
+        }
+        
+    }
+
+    .tradebar-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 20px;
+        .menu{
+            padding: 10px 20px;
+            color:#ff5353;
+            width: 50%;
+            text-align: center;
+            font-weight: 500;
+        }
+        .menu-active{
+            color: #53ce53;
+            background-color: #191b20;
+            border-radius: 2em;
+            // width: 100%;
+        }
+    }
+    .amount-crypto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card {
+        background-color: #191b20;
+        border-radius: 10px;
+        padding: 20px 30px;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        color: #7c7d8d;
+
+    }
+    .percentages{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 20px;
+            width: 20px;
+            justify-content: center;
+            padding: 15px;
+            background-color: #191b20;
+            border-radius: 2em;
+            color: #7c7d8d;
+            font-size: 12px;
+            font-weight: 500;
+        }
+       
+    }
+    .buyBtn{
+        width: 100%;
+        background-color: #53ce53;
+        color: white;
+        text-align: center;
+        border: none;
+        padding: 15px 20px;
+        font-weight: 600;
+        border-radius: 15px;
+    }
+    .market{
+        justify-content: space-between;
+        >div{
+            border-left: 2px solid white;
+            padding: 0px 20px;
+            color: white;
+        }
+    }
+    .balance-container{
+        background-color: #2f463b;
+        border-radius: 10px;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        >:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 12px;
+            font-weight: 700;
+            color: #7a7d8b;
+            margin: 0;
+        }
+        h3{
+            font-size: 12px;
+            color: white;
+            font-weight: 600;
+            margin: 2px 0px;
+        }
+        >div{
+            color:blue;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+}
