@@ -555,7 +555,7 @@ const IndicatorBody = (props) => {
 
         <div className="data-content">
             {prices && prices.map((item, index) =>
-                <div className="data-content-item">
+                <div key={Math.random()} className="data-content-item">
                     <p>{item[1]}</p><p>{item[0]}</p>
                 </div>
             )}
@@ -614,7 +614,7 @@ const Orderbook = () => {
     useEffect(() => {
         initWebsocket();
         // cleanup method which will be called before next execution. in your case unmount.
-        return () => ws.close()
+        return () => ws.close
     },[2000]);
     return (<>
         <div className="orderbook-root">

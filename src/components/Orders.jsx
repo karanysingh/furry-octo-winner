@@ -28,7 +28,7 @@ const Orders = () => {
     <div className="table-header">
         </div>
         {data.map((item, index) => (
-        <div className="table-row">
+        <div key={Math.random()} className="table-row">
             <div className="table-cell">
                 {item[0]}
                 </div>
